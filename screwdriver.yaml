@@ -1,0 +1,6 @@
+jobs:
+    component:
+        image: docker.ouroath.com:4443/docker.io/node:18
+        requires: [~commit]
+        steps:
+            - step-1: echo "Screwdriver testing2"
